@@ -1,0 +1,51 @@
+body {
+  background-color: #9ad3de;
+  
+}
+.heading {
+  margin-top: 30px;
+  color: black;
+}
+#theheading {
+  font-family: 'Montserrat', sans-serif;
+}
+#thequote {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.2em;
+}
+
+#theauthor {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.mybutton {
+  background-color: #9ad3de !important;
+}
+
+
+.quotebox {
+  background-color: grey;
+  padding: 15px 30px 30px 30px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
